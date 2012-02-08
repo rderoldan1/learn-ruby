@@ -8,9 +8,9 @@
 
 ####Para aprender mas rapido de la sintaxis de ruby
 
-[Try Ruby](http://www.tryruby.org)
-[Learn To Program](http://pine.fm/LearnToProgram/?Chapter=0)	
-[Aprende a Programar](http://www.rubenploneda.com/aprende-a-programar-ruby-por-chris-pine/)
+1. [Try Ruby](http://www.tryruby.org)
+2. [Learn To Program](http://pine.fm/LearnToProgram/?Chapter=0)	
+3. [Aprende a Programar](http://www.rubenploneda.com/aprende-a-programar-ruby-por-chris-pine/)
 
 	
  	
