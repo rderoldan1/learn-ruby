@@ -6,3 +6,10 @@
 
 ###Para participar Fork este proyecto y haga un pull
 
+####Para aprender mas rapido de la sintaxis de ruby
+	[Try Ruby]:(tryruby.org)
+	[Learn To Program]:(http://pine.fm/LearnToProgram/?Chapter=0)	
+	[Aprende a Programar]:(http://www.rubenploneda.com/aprende-a-programar-ruby-por-chris-pine/)
+
+	
+
