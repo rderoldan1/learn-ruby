@@ -1,8 +1,12 @@
 # Learn-Ruby
-	Es un repositorio con el fin de entender 
-	la sintaxis basica (en principio) de ruby,
-	encontrara varios ejercicios con algunas 
-	soluciones realizadas por varios participantes.
+Es un repositorio con el fin de entender  la sintaxis basica (en principio) de ruby, encontrara varios
+ejercicios con algunas soluciones realizadas por varios participantes.
+
+El "Tutorial esta divido en semanas, las cuales cubren algun tema en particular, cada ejercicio tiene
+incluido el psudocodigo, los temas estan distribuidos asi los cuales estan distribuidos asi:
+
+### Semana 1
+
 
 ###Para participar [Fork](https://github.com/rderoldan1/learn-ruby/fork) este proyecto y haga un pull
 
