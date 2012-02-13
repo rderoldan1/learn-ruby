@@ -1,7 +1,0 @@
-loop do 
-	puts "ingrese una cantidad en pesos"
-	pesos = gets.chomp
-	break if pesos.eql? "exit"
-	conver = pesos.to_f/1800.0
-	puts "#{pesos} equivale a #{conver} dolares"
-end
