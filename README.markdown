@@ -7,7 +7,7 @@ incluido el psudocodigo, los temas estan distribuidos asi los cuales estan distr
 
 ### Temas
 ----------
-####[Semana 0](/tree/master/Semana 0) _Semana de Introducción_
+####[Semana 0](rderoldan1/learn-ruby/tree/master/Semana 0) _Semana de Introducción_
 ####[Semana 1](github.com/rderoldan1/learn-ruby/tree/master/Semana 1) _Ciclos y tomas de decisión_ 
 ####[Semana 2](github.com/rderoldan1/learn-ruby) _Ciclos anidados y subprogramas_
 ####[Semana 3](github.com/rderoldan1/learn-ruby) _Presentacion en pantalla y cabeceras_ 
