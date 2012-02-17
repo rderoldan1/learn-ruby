@@ -1,7 +1,9 @@
 
-## Problema 1
+### Problema 1
 --------------
 Hacer un programa que imprima los numeros del 1 al 100.
+
+### Pseudocódigo
 
 	PROGRAMA contador1
 	ENTORNO:
