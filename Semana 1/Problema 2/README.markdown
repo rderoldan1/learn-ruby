@@ -1,8 +1,8 @@
-## Problema 2
+### Problema 2
 --------------
 Hacer un programa que imprima los numeros del 100 al 0, en orden
 decreciente.
-##pseudocodigo
+### Pseudocódigo
 	PROGRAMA contador2
 	ENTORNO:
 	   c <- 100
