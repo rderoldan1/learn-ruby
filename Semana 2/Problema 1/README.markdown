@@ -1,6 +1,6 @@
 ### Problema 1
 -------------
-    Imprimir diez veces la serie de numeros del 1 al 10.
+Imprimir diez veces la serie de numeros del 1 al 10.
 
 ### Pseudocódigo
     PROGRAMA diez
