@@ -1,6 +1,8 @@
 ### Problema 5
 --------------
 Calcular el factorial de un numero, mediante subprogramas.
+Puden hacerlo con funciones, o con clases en diferentes archivos
+
 Pseudocódigo
 -------------
 
