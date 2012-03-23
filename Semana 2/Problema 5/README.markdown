@@ -1,13 +1,11 @@
 ### Problema 5
 --------------
 Calcular el factorial de un numero, mediante subprogramas.
-Puden hacerlo con funciones, o con clases en diferentes archivos
 
 Pseudocódigo
 -------------
 
 programa 1
-
     PROGRAMA factorial
     ENTORNO:
     res <- "S"
@@ -27,7 +25,6 @@ programa 1
     FINPROGRAMA
 
 subprograma 1
-
     SUBPROGRAMA Calculos
         MIENTRAS numero > 1 HACER
               factorial <- factorial * numero
@@ -38,7 +35,6 @@ subprograma 1
 
 
 subprograma 2
-
     SUBPROGRAMA Mas
         res <- " "
         MIENTRAS res <> "S" Y res <> "N" HACER
@@ -49,7 +45,6 @@ subprograma 2
     FINSUBPROGRAMA
 
 subprograma 3
-
     SUBPROGRAMA Imprimir
         ESCRIBIR "Su factorial es: "
         ESCRIBIR factorial
