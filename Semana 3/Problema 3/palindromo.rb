@@ -1,6 +1,7 @@
 def palindromo
+  palabra = "ani34ta lav?a la ti/n$a_ _  "
+  palabra=palabra.gsub((/\W|\_|\d/),"")
 
-  palabra = "oelo "
 
   if (palabra==palabra.reverse)
 
