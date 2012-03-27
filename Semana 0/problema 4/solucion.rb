@@ -1,4 +1,4 @@
-
+#by Ruben Espinosa  www.github.com/rderoldan1
 def sumar(a,b)
       puts  a.to_i + b.to_i
 end
@@ -35,11 +35,9 @@ class Calculadora
 
       puts "escriba una operacion o -h para obtener ayuda"
       a = gets().chomp()
-      puts a
       break if salir(a)
-      puts a.eql?"-h"
-      if a.eql?"-h"
-        puts "para salir escriba 'exit'\n  para calcular escriba una expresion matematica, ej:  2+4  8 * 10, no importa los espacios "
+       if a.eql?"-h"
+        puts "para salir escriba 'exit'\npara calcular escriba una expresion matematica, ej:  2+4  8 * 10, no importa los espacios "
       else
         a = a.delete(" ")
         a =  a.scan(/\w{1,}|\W|\w{1,}/)
@@ -50,7 +48,7 @@ class Calculadora
         elsif a[1].eql? "/"
           dividir(a[0],a[2])
         elsif a[1].eql? "*"
-           multiplicar(a[0],a[2])
+          multiplicar(a[0],a[2])
         else
            puts "operacion errada"
         end

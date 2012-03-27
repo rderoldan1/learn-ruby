@@ -1,4 +1,4 @@
-
+#by Ruben Espinosa  www.github.com/rderoldan1
 loop do
 	puts "ingrese un numero para ser evaluado o exit para salir"
 	num = gets.chomp

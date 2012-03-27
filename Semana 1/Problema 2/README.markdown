@@ -2,6 +2,7 @@
 --------------
 Hacer un programa que imprima los numeros del 100 al 0, en orden
 decreciente.
+
 ### Pseudocódigo
 	PROGRAMA contador2
 	ENTORNO:

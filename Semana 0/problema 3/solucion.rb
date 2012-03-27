@@ -1,3 +1,6 @@
+
+#by Ruben Espinosa  www.github.com/rderoldan1
+
 def salir(word)
 	@bool	
 	if word.eql? "exit"

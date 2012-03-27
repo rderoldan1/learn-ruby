@@ -1,4 +1,6 @@
-loop do 
+#by Ruben Espinosa  www.github.com/rderoldan1
+
+loop do
 	puts "ingrese una cantidad en pesos o \'exit\' para terminar"
 	pesos = gets.chomp
 	break if pesos.eql? "exit"
