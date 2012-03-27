@@ -22,5 +22,4 @@ class Multiplicacion
       multiplica(numero3,numero4)
     end
   end
-
 end
