@@ -5,7 +5,7 @@ o cruz ganador.
 
 ### Ejemplo
 
-    veses
+    veces
     4
     cara
     cara
