@@ -18,14 +18,18 @@ class Solucion
   def cycle
     puts "numero de juegos"
     numero = gets.chomp.to_i
-    resultados = Hash.new
-    resultados["cara"],resultados["cruz"]=0,0
-    for i in 1..numero
-      random = rand(2)
-      resultados[@moneda[random]] += 1
-      puts "juego #{i} gana #{@moneda[random]}"
+    if validar(numero)
+      resultados = Hash.new
+      resultados["cara"],resultados["cruz"]=0,0
+      for i in 1..numero
+        random = rand(2)
+        resultados[@moneda[random]] += 1
+        puts "juego #{i} gana #{@moneda[random]}"
+      end
+      winner(resultados["cara"],resultados["cruz"])
+    else
+      puts "tiene que ingresar un numero mayor a 0"
     end
-    winner(resultados["cara"],resultados["cruz"])
   end
 
   def winner(cara,cruz)
@@ -37,6 +41,11 @@ class Solucion
      else
        puts "empate a #{cara}"
      end
+  end
+
+  def validar(repeticiones)
+    !repeticiones.eql? 0
+
   end
 end
 
