@@ -1,0 +1,3 @@
+class Solucion
+
+end
