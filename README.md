@@ -12,7 +12,7 @@ incluido el psudocodigo, los temas estan distribuidos asi :
 ####[Semana 1](learn-ruby/tree/master/Semana 1) _Ciclos y tomas de decisión_ 
 ####[Semana 2](learn-ruby/tree/master/Semana 2) _Ciclos anidados y subprogramas_
 ####[Semana 3](learn-ruby/tree/master/Semana 3) _Presentacion en pantalla y cabeceras_ 
-####[Semana 4](learn-ruby) _Numeros aleatorios y menus_ 
+####[Semana 4](learn-ruby/tree/master/Semana 4) _Numeros aleatorios y menus_
 ####[Semana 5](learn-ruby) _Arrays unidimensionales_
 ####[Semana 6](learn-ruby) _Arrays bidimensionales_ 
 ####[Semana 7](learn-ruby) _Arrays multidimensionales_
