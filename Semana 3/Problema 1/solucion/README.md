@@ -1,56 +1,27 @@
-### Problema 5
+### Solución
 --------------
-Calcular el factorial de un numero, mediante subprogramas.
-Puden hacerlo con funciones, o con clases en diferentes archivos
 
-Pseudocódigo
--------------
+Esta es la solución propuesta por [@rderoldan1](github.com/rderoldan1), la cual utiliza tres clases con el fin de
+afianzar los conceptos vistos anteriormente, las clases son:
 
-programa 1
-
-    PROGRAMA factorial
-    ENTORNO:
-    res <- "S"
-        ALGORITMO:
-        MIENTRAS res = "S" HACER
-              Borrar_pantalla( )
-              factorial <- 1
-              ESCRIBIR "Numero: "
-              LEER numero
-              SI numero < 0 ENTONCES
-                 ESCRIBIR "No tiene factorial"
-              SINO
-                 HACER Calculos
-              FINSI
-              HACER Mas
-        FINMIENTRAS
-    FINPROGRAMA
-
-subprograma 1
-
-    SUBPROGRAMA Calculos
-        MIENTRAS numero > 1 HACER
-              factorial <- factorial * numero
-              numero <- numero - 1
-        FINMIENTRAS
-        HACER Imprimir
-    FINSUBPROGRAMA
+ 1. Romanos
+ 2. Print
+ 3. Calculate
 
 
-subprograma 2
+### Uso
+--------
+Para correr el script
 
-    SUBPROGRAMA Mas
-        res <- " "
-        MIENTRAS res <> "S" Y res <> "N" HACER
-              ESCRIBIR "Desea calcular m&aacutes factoriales (S/N): "
-              LEER res
-              res <- Convertir_may£sculas( res )
-        FINMIENTRAS
-    FINSUBPROGRAMA
+    ruby romanos
 
-subprograma 3
 
-    SUBPROGRAMA Imprimir
-        ESCRIBIR "Su factorial es: "
-        ESCRIBIR factorial
-    FINSUBPROGRAMA
+Convierta cualquier numero entre 1 y 3999 a notación Romana.
+
+    Ingrese un número
+    1024
+    MXXIV
+
+Para obtener ayuda `-help`, para salir `exit`
+
+
