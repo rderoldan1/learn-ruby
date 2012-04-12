@@ -18,10 +18,11 @@ Para correr el script
 
 Convierta cualquier numero entre 1 y 3999 a notación Romana.
 
-    Ingrese un número
-    1024
-    MXXIV
+![Screenshot 1](http://i.imgur.com/YIB3k.png)
+
 
 Para obtener ayuda `-help`, para salir `exit`
+
+![Screenshot 2](http://i.imgur.com/7chnM.png?1)
 
 
