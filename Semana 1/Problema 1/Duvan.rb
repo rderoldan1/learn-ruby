@@ -1,6 +1,10 @@
 class Duvan
  def run
-cdfxgfvxf
+ x = 0
+   while x<100 do
+       x+=1
+     puts "#{x}"
+   end
 
  end
 end
