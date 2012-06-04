@@ -1,3 +1,7 @@
 class Duvan
-  # To change this template use File | Settings | File Templates.
+  x = 101
+  while x > 0 do
+    x -=1
+    puts "#{x}"
+   end
 end
