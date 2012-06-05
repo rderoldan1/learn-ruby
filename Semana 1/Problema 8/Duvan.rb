@@ -4,10 +4,12 @@ class Duvan
   a = gets
   if
   a.eql? "s"
-    puts a
+    a = a.upcase
+    puts "#{a}"
   else
     a.eql? "n"
-     puts a
+    a = a.upcase
+    puts "#{a}"
   end
 
  end
