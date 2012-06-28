@@ -19,7 +19,7 @@ class JvidalbaSln
       if(num1%2==0)
         puts "Numero #{num1} es divisor de 2"
         cuenta = cuenta.next
-        suma = suma + num1
+        suma += num1
       end
       num1 = num1.next
     end
