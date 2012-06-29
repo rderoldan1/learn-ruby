@@ -8,6 +8,7 @@ class Factorial
     @print = Print.new
     @calc = Calculos.new
   end
+
   def run
      valid = validaciones(@number)
      if valid
@@ -15,7 +16,9 @@ class Factorial
      end
 
   end
+
 private
+
   def validaciones(number)
     if number < 0
        @print.error(1, number)
@@ -31,6 +34,7 @@ private
   end
 
 end
+
 if ARGV.size != 1
   puts "Modo correcto de uso: ruby #{__FILE__} numero"
 else

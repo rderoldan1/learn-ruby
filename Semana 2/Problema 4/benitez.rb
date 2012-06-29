@@ -7,6 +7,7 @@
         minutos=gets.chomp.to_i
         puts "introduzca segundo"
         segundos=gets.chomp.to_i
+
             while (hora<=24) do
              	if (hora==24)
                		hora=0

@@ -1,0 +1,77 @@
+class Jvidalba_sln
+  # To change this template use File | Settings | File Templates.
+
+  def params
+
+    print "HORA: "
+    hour = gets.chomp.to_i
+
+    print "MINUTO: "
+    minute = gets.chomp.to_i
+
+    print "SEGUNDO: "
+    second = gets.chomp.to_i
+    validate(hour,minute,second)
+
+  end
+
+  private
+
+  def synchronize(h,m,s)
+
+    loop do
+
+      while(h<24)
+          while(m<60)
+              while(s<60)
+                  if((h<10)&&(m<10)&&(s<10))
+
+                    print "0#{h}:0#{m}:0#{s}\n"
+                    sleep(1)
+                    elsif((h<10)&&(m<10))
+                      print "0#{h}:0#{m}:#{s}\n"
+                      sleep(1)
+                      elsif((m<10)&&(s<10))
+                        print "#{h}:0#{m}:0#{s}\n"
+                        sleep(1)
+                        elsif((h<10)&&(s<10))
+                          print "0#{h}:#{m}:0#{s}\n"
+                          sleep(1)
+                          elsif(m<10)
+                            print "#{h}:0#{m}:#{s}\n"
+                            sleep(1)
+                            elsif(h<10)
+                              print "0#{h}:#{m}:#{s}\n"
+                              sleep(1)
+                              elsif(s<10)
+                                print "#{h}:#{m}:0#{s}\n"
+
+                                sleep(1)
+
+
+                  end
+                  s = s + 1
+              end
+              m = m + 1
+              s = 0
+          end
+          h = h + 1
+          m = 0
+      end
+      h = 0
+    end
+  end
+
+  def validate(h,m,s)
+     if((h>24)||(m>60)||(s>60))
+       print "Ingrese los datos correctos"
+     else
+       synchronize(h,m,s)
+
+     end
+
+  end
+
+  oelo = Jvidalba_sln.new
+  oelo.params
+end
